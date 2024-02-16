@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 class="elementor-heading-title elementor-size-default">
+           "गोविंद बल्लभ पंत अभियान्त्रिकी एवं प्रौद्योगिकी संस्थान, पौड़ी गढ़वाल"
+            <br>
+            "Govind Ballabh Pant Institute of Engineering and Technology Pauri Garhwal"
+
+        </h1>
+    </div>
+
+    
+
+    <div id="login-container">
+        <div class="login-panel" id="admin-panel">
+            <h2>Admin Login</h2>
+            <form id="admin-form">
+                <input type="text" placeholder="Username" id="admin-username">
+                <input type="password" placeholder="Password" id="admin-password">
+                <button type="button" onclick="adminLogin()">Login</button>
+            </form>
+        </div>
+
+        <div class="login-panel" id="student-panel">
+            <h2>Student Login</h2>
+            <form id="student-form">
+                <input type="text" placeholder="Username" id="student-username">
+                <input type="password" placeholder="Password" id="student-password">
+                <button type="button" onclick="studentLogin()">Login</button>
+            </form>
+        </div>
+
+        
+
+    </div>
+
+    <script>
+        function adminLogin() {
+            // Add your admin login logic here
+            alert('Admin login clicked!');
+        }
+
+        function studentLogin() {
+            // Add your student login logic here
+            alert('Student login clicked!');
+        
+    }
+
+
+    </script>
+</body>
+</html>
