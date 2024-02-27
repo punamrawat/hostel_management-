@@ -19,7 +19,14 @@
     
 
     <div id="login-container">
-       
+        <div class="login-panel" id="admin-panel">
+            <h2>Admin Login</h2>
+            <form id="admin-form">
+                <input type="text" placeholder="Username" id="admin-username">
+                <input type="password" placeholder="Password" id="admin-password">
+                <button type="button" onclick="adminLogin()">Login</button>
+            </form>
+        </div>
 
         <div class="login-panel" id="student-panel">
             <h2>Student Login</h2>
@@ -33,6 +40,7 @@
         
 
     </div>
+
     <script>
         function adminLogin() {
             // Add your admin login logic here
@@ -44,11 +52,6 @@
             alert('Student login clicked!');
         
     }
-
-
-    </script>
-
- 
 
 
     </script>
