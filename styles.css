@@ -1,3 +1,4 @@
+/* Admin , Student & registration page css */
 *{
     margin: 0;
     padding: 0;
@@ -49,10 +50,6 @@ input {
     box-sizing: border-box;
 }
 
-
-
-
-
 .login-options {
     display: flex;
     gap: 1px;
@@ -72,7 +69,7 @@ input {
     border-radius: 5px;
 }
 .button-box{
-    width: 220px;
+    width: 270px;
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px #240b021f;
